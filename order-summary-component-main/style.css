@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* converting 16px to 10px */
+  font-size: 62.5%;
+}
+body {
+  background-image: url("./images/pattern-background-desktop.svg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  margin-top: 6.4rem;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.card__img {
+  width: 100%;
+}
+.order {
+}
+h2 {
+}
+
+.order__sum {
+}
+.plan {
+}
+.plan__icon {
+}
+
+.plan__annual-plan {
+}
+
+h3 {
+}
+.plan__price {
+}
+
+.btn_pay {
+}
+.btn__cancel {
+}
