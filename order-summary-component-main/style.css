@@ -49,24 +49,33 @@ h2 {
   line-height: 1.6;
   text-align: center;
   font-weight: 500;
-  margin-bottom: 2rem;
+  margin-bottom: 2.4rem;
   color: hsl(224, 23%, 55%);
 }
 .plan {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   background-color: hsl(225, 100%, 98%);
   /* background-color: red; */
+  margin-bottom: 3.2em;
   border-radius: 9px;
-  padding: 2rem;
+  padding: 1.6rem;
 }
-.plan__icon {
+.icon-and-plan {
+  display: flex;
+  gap: 2rem;
+  /* justify-content: space-between; */
+  /* flex-direction: row; */
+}
+.plan__icon img {
+  /* height: 4rem; */
 }
 
 .plan__annual-plan {
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   /* background-color: red; */
+  /* margin-left: 2rem; */
 }
 
 .plan__annual-plan h3 {
@@ -75,12 +84,16 @@ h2 {
   font-size: 1.6rem;
 }
 .plan__price {
+  margin-top: 0.5rem;
   font-size: 1.6rem;
   color: hsl(224, 23%, 55%);
 }
 .plan a {
   /* float: right; */
-  margin-left: 4rem;
+  margin-left: 10.8rem;
+  font-weight: 700;
+  /* color: hsl(245, 75%, 52%); */
+  font-size: 1.2rem;
 }
 
 .btns {
@@ -88,8 +101,19 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
-.btn_pay {
+.btn__pay {
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 1.6rem 9.6rem;
+  border-radius: 11px;
+  margin-bottom: 2.4rem;
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(245, 75%, 52%);
 }
+
 .btn__cancel {
   color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 3.2rem;
 }
